@@ -48,3 +48,50 @@ h1 {
 .about-text {
     font-size: 22px;
 }
+
+.themes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    margin-top: 60px;
+}
+
+.theme-card {
+    display: block;
+    padding: 28px;
+    border: 1px solid #1e1e1e;
+    color: #1e1e1e;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.theme-card:hover {
+    background-color: #1e1e1e;
+    color: #f5f1e8;
+}
+
+.theme-card h2 {
+    font-weight: normal;
+    font-size: 28px;
+    margin-top: 0;
+}
+
+.theme-card p {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+@media (max-width: 700px) {
+    .themes {
+        grid-template-columns: 1fr;
+    }
+
+    h1 {
+        font-size: 38px;
+    }
+
+    nav a {
+        margin: 0 10px;
+        font-size: 16px;
+    }
+}
