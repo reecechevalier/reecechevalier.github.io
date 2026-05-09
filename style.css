@@ -1,0 +1,50 @@
+body {
+    background-color: #f5f1e8;
+    color: #1e1e1e;
+    font-family: Georgia, serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.8;
+}
+
+nav {
+    padding: 30px;
+    text-align: center;
+}
+
+nav a {
+    color: #1e1e1e;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+}
+
+main {
+    max-width: 700px;
+    margin: auto;
+    padding: 60px 20px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: normal;
+}
+
+.tagline {
+    font-size: 20px;
+    margin-bottom: 60px;
+    opacity: 0.8;
+}
+
+.featured-poem {
+    margin-top: 60px;
+    font-size: 22px;
+}
+
+.poem {
+    margin-top: 50px;
+}
+
+.about-text {
+    font-size: 22px;
+}
